@@ -30,13 +30,19 @@ using OzzieAI.XAI;
 
 var client = new GrokClient("YOUR_XAI_API_KEY");
 
-var request = new XaiRequest 
+var request = new ChatRequest
 {
-    Prompt = "Explain the mechanics of quantum entanglement.",
-    IncludeReasoning = true
+
+    Model = GrokModel.Grok420Reasoning,
+    Messages = new List<ChatMessage>
+    {
+        new() { Role = "system", Content = systemPrompt },
+        new() { Role = "user", Content = userPrompt }
+    },
+    Temperature = 0.7f
 };
 
-var response = await client.GetExplanationAsync(request);
+var response = await client.ChatAsync(request);
 
 Console.WriteLine($"Grok Output: {response.Text}");
 Console.WriteLine($"XAI Reasoning: {response.ReasoningPath}");
@@ -48,11 +54,11 @@ or
 GrokClientConfig GrokClientConfig = GrokClientConfig.EnsureApiKeyConfigured();
 GrokClient GrokClient = new GrokClient(GrokClientConfig);
 
-var request = new xAINetClient.ChatRequest
+var request = new ChatRequest
 {
 
     Model = GrokModel.Grok420Reasoning,
-    Messages = new List<xAINetClient.ChatMessage>
+    Messages = new List<ChatMessage>
     {
         new() { Role = "system", Content = systemPrompt },
         new() { Role = "user", Content = userPrompt }
