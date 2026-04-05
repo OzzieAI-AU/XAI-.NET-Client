@@ -1,4 +1,4 @@
-﻿namespace xAINetClient
+﻿namespace OzzieAI.XAI
 {
     using System;
     using System.Text.Json.Serialization;

@@ -1,6 +1,6 @@
 ﻿using System.Text.Json.Serialization;
 
-namespace xAINetClient
+namespace OzzieAI.XAI
 {
     /// <summary>
     /// Details for an image referenced in a <see cref="ContentPart"/> of type "image_url".

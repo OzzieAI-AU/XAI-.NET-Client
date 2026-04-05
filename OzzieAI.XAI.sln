@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 18
+VisualStudioVersion = 18.4.11626.88 stable
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OzzieAI.XAI", "OzzieAI.XAI\OzzieAI.XAI.csproj", "{B8B79D68-61BF-6B47-7F15-8C0A07AED1D8}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B8B79D68-61BF-6B47-7F15-8C0A07AED1D8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B8B79D68-61BF-6B47-7F15-8C0A07AED1D8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B8B79D68-61BF-6B47-7F15-8C0A07AED1D8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B8B79D68-61BF-6B47-7F15-8C0A07AED1D8}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {40E3223D-EDD5-4A19-AF9D-ED9DB4224A81}
+	EndGlobalSection
+EndGlobal

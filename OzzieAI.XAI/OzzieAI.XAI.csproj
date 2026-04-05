@@ -5,7 +5,7 @@
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
     <Company>xAINetClient</Company>
-    <RootNamespace>xAINetClient</RootNamespace>
+    <RootNamespace>OzzieAI.XAI</RootNamespace>
   </PropertyGroup>
 
 </Project>

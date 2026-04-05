@@ -1,4 +1,4 @@
-﻿namespace xAINetClient
+﻿namespace OzzieAI.XAI
 {
 
     /// <summary>

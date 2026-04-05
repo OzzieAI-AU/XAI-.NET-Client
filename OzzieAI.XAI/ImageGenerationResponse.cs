@@ -1,6 +1,6 @@
 ﻿using System.Text.Json.Serialization;
 
-namespace xAINetClient
+namespace OzzieAI.XAI
 {
     /// <summary>
     /// Response from image generation endpoint (/images/generations).

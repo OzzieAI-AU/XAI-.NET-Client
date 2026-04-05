@@ -1,6 +1,6 @@
 ﻿using System.Text.Json.Serialization;
 
-namespace xAINetClient
+namespace OzzieAI.XAI
 {
     /// <summary>
     /// Single message in a chat conversation.

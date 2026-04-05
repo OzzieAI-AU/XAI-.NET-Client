@@ -1,6 +1,6 @@
 ﻿using System.Text.Json.Serialization;
 
-namespace xAINetClient
+namespace OzzieAI.XAI
 {
     /// <summary>
     /// Represents a tool (function) that can be called by Grok.

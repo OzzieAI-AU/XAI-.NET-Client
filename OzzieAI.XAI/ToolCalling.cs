@@ -1,7 +1,7 @@
 ﻿using System.Text.Json.Serialization;
 using System.Collections.Generic;
 
-namespace xAINetClient
+namespace OzzieAI.XAI
 {
     /// <summary>
     /// A single tool call requested by the assistant (appears in assistant message).
